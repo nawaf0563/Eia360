@@ -27,7 +27,7 @@ text-align: center
 </HEAD>
 <BODY>
 <?php
-$CSVfp = fopen("fruits.csv", "r");
+$CSVfp = fopen("https://nawaf0563.github.io/Eia360/fruits.csv", "r");
 if($CSVfp !== FALSE) {
 ?>
 <table cellspacing="1">
